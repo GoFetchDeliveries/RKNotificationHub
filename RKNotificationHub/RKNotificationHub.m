@@ -47,7 +47,6 @@ static CGFloat const kBumpTimeSeconds2 = 0.1;
 @implementation RKNotificationHub {
     int curOrderMagnitude;
     UILabel *countLabel;
-    RKView *redCircle;
     CGPoint initialCenter;
     CGRect baseFrame;
     CGRect initialFrame;
@@ -55,6 +54,7 @@ static CGFloat const kBumpTimeSeconds2 = 0.1;
 }
 
 @synthesize hubView;
+@synthesize redCircle;
 
 #pragma mark - SETUP
 

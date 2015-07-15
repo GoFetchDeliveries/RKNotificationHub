@@ -39,6 +39,7 @@
  */
 FOUNDATION_EXPORT CGFloat const RKNotificationHubDefaultDiameter;
 
+@class RKView;
 @interface RKNotificationHub : NSObject
 
 //%%% setup
@@ -70,5 +71,6 @@ FOUNDATION_EXPORT CGFloat const RKNotificationHubDefaultDiameter;
 - (void)bump;
 
 @property (nonatomic)UIView *hubView;
+@property (nonatomic) RKView * redCircle;
 
 @end
